@@ -52,7 +52,7 @@ void load_file(SLL **ptr)
             return;
         }
 
-        if (fscanf(fp, "%d %49s %f",
+        if (fscanf(fp, "%d %s %f",
                    &new_node->rollno,
                    new_node->name,
                    &new_node->percentage) != 3)
