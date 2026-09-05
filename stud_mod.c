@@ -55,7 +55,7 @@ void modify_by_rollno(SLL **ptr)
             printf("Current Percentage: %.2f\n", p->percentage);
 
             printf("Enter new name: ");
-            scanf("%49s", name);
+            scanf("%s", name);
 
             do
             {
@@ -88,7 +88,7 @@ void modify_by_name(SLL **ptr)
     int roll;
 
     printf("Enter name: ");
-    scanf("%49s", name);
+    scanf("%s", name);
 
     printf("\nMatching records:\n");
 
@@ -127,7 +127,7 @@ void modify_by_name(SLL **ptr)
             float percentage;
 
             printf("Enter new name: ");
-            scanf("%49s", newname);
+            scanf("%s", newname);
 
             do
             {
