@@ -59,7 +59,7 @@ void modify_by_rollno(SLL **ptr)
 
             do
             {
-                printf("Enter new percentage (0-100): ");
+                printf("Enter new percentage");
                 scanf("%f", &percentage);
 
                 if (percentage < 0 || percentage > 100)
