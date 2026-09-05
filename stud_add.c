@@ -45,7 +45,7 @@ void add_data(SLL **ptr)
     printf("Roll No = %d\n", new_node->rollno);
 
     printf("Enter name: ");
-    scanf("%49s", new_node->name);
+    scanf("%s", new_node->name);
 
     do
     {
