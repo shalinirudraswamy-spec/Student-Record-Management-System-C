@@ -196,7 +196,7 @@ void modify_by_percentage(SLL **ptr)
             float newpercentage;
 
             printf("Enter new name: ");
-            scanf("%49s", newname);
+            scanf("%s", newname);
 
             do
             {
